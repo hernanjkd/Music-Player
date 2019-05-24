@@ -47,8 +47,7 @@ class Player extends Component {
         }
         else {
             this.state.playingNow.pause()
-            this.state.playingNow.currentTime = 0
-            // this.setState( this.state.playingNow.currentTime = 0 )
+            this.setState.playingNow.currentTime = 0
             this.setState({ playingNow: this.refs[refID] })
             this.refs[refID].play()
         }
