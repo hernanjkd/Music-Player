@@ -8,7 +8,7 @@ class Player extends Component {
     }
 
     componentDidMount() {
-        const url = 'http://assets.breatheco.de/apis/sound/songs';
+        const url = 'https://assets.breatheco.de/apis/sound/songs';
 
         // fetch the url and get the response back
         fetch(url)
