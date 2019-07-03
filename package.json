@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "node deploy-to-github.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +28,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bc-console": "0.0.2",
+    "envfile": "^3.0.0",
+    "gh-pages": "^2.0.1",
+    "parse-github-url": "^1.0.2",
+    "remote-origin-url": "^2.0.0"
   }
 }
