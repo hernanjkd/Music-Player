@@ -67,7 +67,7 @@ class Player extends Component {
 
                     <audio ref={"audio"+index}>
                         <source type="audio/wav"
-                        src={"http://assets.breatheco.de/apis/sound/"+item.url} 
+                        src={" "+item.url} 
                         />    
                     </audio>
 
