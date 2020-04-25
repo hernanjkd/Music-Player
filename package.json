@@ -34,7 +34,11 @@
     "bc-console": "0.0.2",
     "envfile": "^3.0.0",
     "gh-pages": "^2.0.1",
+    "minimist": "^1.2.5",
     "parse-github-url": "^1.0.2",
     "remote-origin-url": "^2.0.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
   }
 }
